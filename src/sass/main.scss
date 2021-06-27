@@ -1,13 +1,17 @@
-@import './base/basic-reset';
-@import './base/common';
-@import './base/container';
+// @import './base/basic-reset';
+// @import './base/common';
+// @import './base/container';
 
 @import './utils/mixin';
 @import './utils/variables';
-@import './utils/visually-hidden';
+// @import './utils/visually-hidden';
 
-@import './components/btn';
+// @import './components/btn';
 
-@import './layouts/header';
-@import './layouts/hero';
-@import './layouts/footer';
+// @import './layouts/header';
+// @import './layouts/hero';
+// @import './layouts/footer';
+
+.hero {
+  @include font(500, 12px, 15px, right);
+}
